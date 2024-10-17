@@ -1,0 +1,26 @@
+@media (min-width: 600px) {
+  body {
+      padding: 40px;
+  }
+
+  header, footer {
+      padding: 20px 0;
+  }
+
+  main {
+      margin: 40px 0;
+
+      .intro img {
+          width: 80%;
+          margin: 20px auto;
+      }
+
+      .cards {
+          justify-content: space-around;
+
+          .card {
+              flex: 0 0 30%;
+          }
+      }
+  }
+}

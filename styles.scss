@@ -1,0 +1,12 @@
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/responsive";
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  padding: 20px;
+}
